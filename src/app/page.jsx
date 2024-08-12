@@ -31,6 +31,33 @@ export default function Home() {
                 </nav>
             </header>
 
+        <main className={styles.main}>
+            {/* Seção 1 */}
+            <section className={styles.section}>
+                <h2 className={styles.sectionTitle}>Seção 1</h2>
+                <p className={styles.sectionContent}>
+                    Conteúdo da primeira seção. Aqui você pode adicionar texto, imagens, ou outros elementos.
+                </p>
+            </section>
+
+            {/* Seção 2 */}
+            <section className={styles.section}>
+                <h2 className={styles.sectionTitle}>Seção 2</h2>
+                <p className={styles.sectionContent}>
+                    Conteúdo da segunda seção. Personalize conforme necessário.
+                </p>
+            </section>
+
+            {/* Seção 3 */}
+            <section className={styles.section}>
+                <h2 className={styles.sectionTitle}>Seção 3</h2>
+                <p className={styles.sectionContent}>
+                    Conteúdo da terceira seção. Adicione qualquer elemento que você desejar.
+                </p>
+            </section>
+        </main>
+            
+
             <footer>
                 <div className={styles.footerContainer}>
                     <div className={styles.footerLogoSocial}>
@@ -92,6 +119,10 @@ export default function Home() {
                     <Link href="#" className={styles.footerTerms}>Termos & Políticas</Link>
                 </div>
             </footer>
+
+
+
+
         </div>
     );
 }
