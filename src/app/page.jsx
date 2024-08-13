@@ -12,6 +12,7 @@ export default function Home() {
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Sobre</a></li>
                         <li><a href="#">Contato</a></li>
+                        <li><Link href=" " className={styles.qualqueruma}>Cadastro</Link></li>
                         <li className={styles.dropdown}>
                             <Image 
                                 src={'menuham.png'}
@@ -34,8 +35,8 @@ export default function Home() {
         <main className={styles.main}>
             {/* Seção 1 */}
             <section className={styles.section}>
-                <h2 className={styles.sectionTitle}>Seção 1</h2>
-                <p className={styles.sectionContent}>
+                <h2 className={styles.sectionTitle1}>Seção 1</h2>
+                <p className={styles.sectionContent1}>
                     Conteúdo da primeira seção. Aqui você pode adicionar texto, imagens, ou outros elementos.
                 </p>
             </section>
